@@ -99,6 +99,12 @@ do {
   contraseñaPrompt = prompt('Ingrese su contraseña')
 } while(validacion(usuarioPrompt, contraseñaPrompt) === false)
 
+//OTRA FORMA DE HACERLO EN EL WHILE
+// do {
+//   usuarioPrompt = prompt('Ingrese su usuario')
+//   contraseñaPrompt = prompt('Ingrese su contraseña')
+// } while(!validacion(usuarioPrompt, contraseñaPrompt))
+
 function validacion (userPrompt, passPrompt) {
   if (userPrompt === usuarioServidor && passPrompt === contraseñaServidor) {
     alert('Login exitoso')
