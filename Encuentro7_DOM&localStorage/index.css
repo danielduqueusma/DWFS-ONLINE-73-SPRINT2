@@ -1,0 +1,17 @@
+.fontSize {
+  font-size: 40px;
+}
+
+.designText {
+  color: pink;
+  border: 1px solid red;
+  text-decoration: underline;
+}
+
+.lista {
+  border-radius: 50%;
+}
+
+.itemLista {
+  background-color: red;
+}
