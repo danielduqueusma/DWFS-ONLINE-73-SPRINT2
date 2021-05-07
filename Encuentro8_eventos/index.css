@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cuadrado {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.cuadradoGrande {
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.cuadradoMediano {
+  background-color: lightsalmon;
+  width: 75px;
+  height: 75px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.cuadradoPequeño {
+  background-color: lightslategray;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.border {
+  border: 4px dotted lime;
+}
