@@ -1,0 +1,44 @@
+.containerArticlesToBuy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerPersonalInfo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.containerPersonalInfo input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.containerArticlesToBuy .containerArticlesToBuy__list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerArticlesToBuy .containerArticlesToBuy__list li {
+  border-bottom: 1px solid;
+  margin: 10px 0;
+}
+
+.containerArticlesToBuy .containerArticlesToBuy__btnComprar {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: pink;
+  cursor: pointer;
+}
+
+.error {
+  border-color: red;
+}

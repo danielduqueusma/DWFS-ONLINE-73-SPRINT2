@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.containerHeader {
+  width: 100%;
+  background-color: lightseagreen;
+  padding: 10px;
+  text-transform: uppercase;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerHeader .containerHeader__title .containerHeader__title--text{
+  color: white;
+  font-size: 25px;
+}
+
+.containerHeader .containerHeader__ecommerceCar .containerHeader__ecommerceCar--count {
+  color: white;
+  cursor: pointer;
+}
+
+.containerHeader .containerHeader__ecommerceCar .containerHeader__ecommerceCar--count:hover::before {
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: red;
+  content: 'buy now';
+}
+
+.containerArticles {
+  background-color: lightcyan;
+}
+
+.containerArticles .containerArticles__list {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.containerArticles .containerArticles__list .containerArticles__list--li {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px 1px;
+  list-style: none;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.containerArticles .containerArticles__list .containerArticles__list--li .image {
+  width: 100%;
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerArticles .containerArticles__list .containerArticles__list--li .description {
+  padding: 10px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.containerArticles .containerArticles__list .containerArticles__list--li .btnAddCar {
+  width: 100%;
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.containerArticles .containerArticles__list .containerArticles__list--li .btnAddCar:hover {
+  color: aquamarine;
+  background-color: cadetblue;
+}

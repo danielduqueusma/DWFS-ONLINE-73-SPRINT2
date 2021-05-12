@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy articles</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="buy.css">
+  <script src="buy.js"></script>
+</head>
+<body>
+  <header class="containerHeader">
+    <section class="containerHeader__title">
+      <span class="containerHeader__title--text">Duque's Ecommerce</span>
+    </section>
+  </header>
+  <section class="containerPersonalInfo">
+    <input type="text" placeholder="Nombre:*" id="name">
+    <input type="text" placeholder="Apellido:*" id="lastName">
+    <input type="text" placeholder="Teléfono:" id="tel">
+    <input type="text" placeholder="No tarjeta de crédito:*" maxlength="16" id="numberCreditCard">
+    <input type="text" placeholder="Código de seguridad:*" maxlength="3" id="codeCreditCard">
+  </section>
+  <section class="containerArticlesToBuy">
+    <ul class="containerArticlesToBuy__list" id="containerArticlesToBuy">
+    </ul>
+    <span class="containerArticlesToBuy__btnComprar" id="btnBuy">Comprar</span>
+  </section>
+</body>
+</html>
