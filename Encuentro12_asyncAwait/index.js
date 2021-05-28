@@ -22,23 +22,13 @@ window.onload = () => {
     return response
   }
 
-  console.log(getInfoCountry())
-
   getInfoCountry().then(
     (response) => renderView(response)
   )
 
   function renderView (infoCountry) {
     country.innerHTML = `<h1>${infoCountry.name}</h1><h2>Lon: ${infoCountry.coord.lon}, Lat: ${infoCountry.coord.lat} </h2><h3>${infoCountry.id}</h3>`
-    
-    console.log(infoCountry);
   }
-
-  function test () {
-    return 2
-  }
-
-  console.log(test());
 
   // search with weather api, show 3 elements h1, h2, h3
 }
